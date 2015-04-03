@@ -1,3 +1,15 @@
+/**
+ * Include's 
+ * if we want to use functions from different libraries
+ * in this case the standard c library
+ * we must include them first
+ *
+ * stdio.h contains printf 
+ * stdlib.h contains malloc
+ * string.h contains a lot of string functions, i made my own
+ * in  this demonstration
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
